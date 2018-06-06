@@ -74,7 +74,7 @@ entropy_start = sum(df_entr(a, df) for a in df_groups)
 print(entropy_start)
     
 df_groups = [df.iloc[0:15,:], df.iloc[15:30,:], df.iloc[30:46,:], df.iloc[46:62,:]]
-for i in range(10000):
+for i in range(40000):
     sample = random.sample(range(4), 2)
     print(sample)
     df_groups[sample[0]], df_groups[sample[1]], entropy = propose_switch(dfs = [df_groups[sample[0]], df_groups[sample[1]]], df=df )
