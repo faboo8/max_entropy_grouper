@@ -28,3 +28,8 @@ def df_entropy_partial(a, df, feature):
     entr_feature = sum(entropy(features_a[feature], min(count,FEATURES[feature])) for feature in features_a.index)
 
     return entr_feature
+
+
+def split(rng, n):
+    k, m = divmod(len(rng), n)
+    return (rng[i * k + min(i, m):(i + 1) * k + min(i + 1, m)] for i in range(n))
