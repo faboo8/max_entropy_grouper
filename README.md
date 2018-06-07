@@ -59,16 +59,20 @@ and create an instance:
 Parameters
 ~~~~~~~~~~
 
-* iterable  : iterable, optional  
-    Iterable to decorate with a progressbar.
-    Leave blank to manually manage the updates.
-* desc  : str, optional  
-    Prefix for the progressbar.
-* total  : int, optional  
-    The number of expected iterations. If (default: None),
-    len(iterable) is used if possible. As a last resort, only basic
-    progress statistics are displayed (no ETA, no progressbar).
-    If ``gui`` is True and this parameter needs subsequent updating,
-    specify an initial arbitrary large positive integer,
-    e.g. int(9e9).
-* leave  : bool, optional  
+* df  : pandas.DataFrame  
+    DataFrame with name column and features that shall be used for grouping
+    Can include more columns too
+* name_column  : str 
+    Name of the column that should be used for grouping
+* feature_column  : list 
+    List of column names from Dataframe to use for the calculation of entropy
+    e.g. ['gender', 'nationality']
+* N  : int
+    Number of groups that df should be split into
+* random_swap  : boolean, optional
+    Leads to random swaps along the optimization
+    Deafault: False
+* shuffle  : boolean, optional
+    Leads to random shuffling of the dataframe befor the optimzation
+    If the Dataframe has some kind of order this will generally lead to faster convergence
+    Default: True
