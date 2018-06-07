@@ -10,3 +10,9 @@ A general purpose module that procides the grouping of items with a set of discr
 `{ name | feature_1 | feature_2 | ... | feature_n } `
 
 and tries to find *N* groups with each giving maximun entropy or - in layman's terms - the most diverse groups.
+
+
+## Computing 'diversity'
+
+
+## How to use
