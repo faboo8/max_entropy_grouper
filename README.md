@@ -93,4 +93,4 @@ result = grp.find_best_groups(n)
 - [ ] Implement convergence criteria
 - [x] Make package installable
 - [ ] Add terminal usage e.g. for excel files
-- [ ] MAke usable for non-discrete features by binning them
+- [ ] Make usable for non-discrete features by binning them
