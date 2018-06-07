@@ -47,3 +47,11 @@ The optimization algorithm is pretty straightforward. We choose two groups at ra
 One small (optional) feature is a random swap that will accept a change even when the entropy is decreasing. The thought behind this is to avoid getting stuck in a local maximum. However, I have not encountered a situation where the inclusion of this yielded a better result but hey - who knows? 
 
 ## How to use
+
+Usage is fairly simple. Just import the class:
+
+`from GroupingClass import EntropyGrouping `
+
+and create an instance:
+
+`grp = EntropyGrouping(df, name_columnm, feature_columns, N, random_swap, shuffle) `
