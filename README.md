@@ -78,7 +78,7 @@ result = grp.find_best_groups(n)
     - Number of groups that df should be split into
 * random_swap  : boolean, optional
     - Leads to random swaps along the optimization
-    - Deafault: False
+    - Default: False
 * shuffle  : boolean, optional
     - Leads to random shuffling of the dataframe befor the optimzation
     - If the Dataframe has some kind of order this will generally lead to faster convergence
