@@ -48,7 +48,12 @@ One small (optional) feature is a random swap that will accept a change even whe
 
 ## How to use
 
-Usage is fairly simple. Just import the class:
+Usage is fairly simple. Install the package via the command line
+```
+python setup.py install
+```
+
+and import the class:
 
 ```python
 from GroupingClass import EntropyGrouping 
@@ -86,5 +91,5 @@ result = grp.find_best_groups(n)
 ## Tasks
 
 - [ ] Implement convergence criteria
-- [ ] Make package installable
+- [x] Make package installable
 - [ ] Add terminal usage e.g. for excel files
