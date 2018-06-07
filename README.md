@@ -85,7 +85,7 @@ result = grp.find_best_groups(n)
     - Default: True
 * n  : int, optional
     - Number of iterations for optimization
-    - Default: 'auto' = (length dataframe)^2/N
+    - Default: 'auto' = 2*(length dataframe)^2/N
     
     
 ## Tasks
