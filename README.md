@@ -81,3 +81,10 @@ result = grp.find_best_groups(n)
 * n  : in, optional
     Number of iterations for optimization
     Default: 1000
+    
+    
+## Tasks
+
+- [ ] Implement convergence criteria
+- [ ] Make package installable
+- [ ] Add terminal usage e.g. for excel files
