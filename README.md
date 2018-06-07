@@ -14,5 +14,9 @@ and tries to find *N* groups with each giving maximun entropy or - in layman's t
 
 ## Computing 'diversity'
 
+A measure of how 'diverse' a set is, is the so-called Shannon entropy:
+
+Shannon entropy is defined for a given discrete probability distribution; it measures how much information is required, on average, to identify random samples from that distribution. In this context in can be seen as: How can one seperate a set into *N* groups with each group trying to mimic the original's probability distibution best. 
+
 
 ## How to use
