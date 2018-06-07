@@ -28,6 +28,12 @@ To simplify, let's assume that *X* has 100 elements and only one feature *y* tha
   <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/CodeCogsEqn%20(1).gif" alt="eq2"/>
 </p>
 
+Next, we want to seperate this set into 4 groups with 25 elements each. First, groups are assigned randomly and their individual entropy is:
+
+<p align="center">
+  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/CodeCogsEqn%20(2).gif" alt="eq3"/>
+</p>
+
 
 
 
