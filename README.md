@@ -54,10 +54,9 @@ Usage is fairly simple. Just import the class:
 
 and create an instance:
 
-`grp = EntropyGrouping(df, name_columnm, feature_columns, N, random_swap, shuffle) `
+`grp = EntropyGrouping(df, name_columnm, feature_columns, N, random_swap, shuffle)
+ghg`
 
-Parameters
-~~~~~~~~~~
 
 * df  : pandas.DataFrame  
     DataFrame with name column and features that shall be used for grouping
