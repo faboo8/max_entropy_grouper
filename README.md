@@ -55,3 +55,20 @@ Usage is fairly simple. Just import the class:
 and create an instance:
 
 `grp = EntropyGrouping(df, name_columnm, feature_columns, N, random_swap, shuffle) `
+
+Parameters
+~~~~~~~~~~
+
+* iterable  : iterable, optional  
+    Iterable to decorate with a progressbar.
+    Leave blank to manually manage the updates.
+* desc  : str, optional  
+    Prefix for the progressbar.
+* total  : int, optional  
+    The number of expected iterations. If (default: None),
+    len(iterable) is used if possible. As a last resort, only basic
+    progress statistics are displayed (no ETA, no progressbar).
+    If ``gui`` is True and this parameter needs subsequent updating,
+    specify an initial arbitrary large positive integer,
+    e.g. int(9e9).
+* leave  : bool, optional  
