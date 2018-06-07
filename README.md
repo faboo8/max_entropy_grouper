@@ -54,8 +54,8 @@ Usage is fairly simple. Just import the class:
 
 and create an instance:
 
-`grp = EntropyGrouping(df, name_columnm, feature_columns, N, random_swap, shuffle)
-ghg`
+`grp = EntropyGrouping(df, name_columnm, feature_columns, N, random_swap, shuffle)`
+`result = grp.find_best_groups(n)`
 
 
 * df  : pandas.DataFrame  
@@ -75,3 +75,6 @@ ghg`
     Leads to random shuffling of the dataframe befor the optimzation
     If the Dataframe has some kind of order this will generally lead to faster convergence
     Default: True
+* n  : in, optional
+    Number of iterations for optimization
+    Default: 1000
