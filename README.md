@@ -62,22 +62,22 @@ result = grp.find_best_groups(n)
 ```
 **Parameters**
 * df  : pandas.DataFrame  
-    DataFrame with name column and features that shall be used for grouping
-    Can include more columns too
+    - DataFrame with name column and features that shall be used for grouping
+    - Can include more columns too
 * name_column  : str 
-    Name of the column that should be used for grouping
+    - Name of the column that should be used for grouping
 * feature_column  : list 
-    List of column names from Dataframe to use for the calculation of entropy
-    e.g. ['gender', 'nationality']
+    - List of column names from Dataframe to use for the calculation of entropy
+    - e.g. ['gender', 'nationality']
 * N  : int
-    Number of groups that df should be split into
+    - Number of groups that df should be split into
 * random_swap  : boolean, optional
-    Leads to random swaps along the optimization
-    Deafault: False
+    - Leads to random swaps along the optimization
+    - Deafault: False
 * shuffle  : boolean, optional
-    Leads to random shuffling of the dataframe befor the optimzation
-    If the Dataframe has some kind of order this will generally lead to faster convergence
-    Default: True
+    - Leads to random shuffling of the dataframe befor the optimzation
+    - If the Dataframe has some kind of order this will generally lead to faster convergence
+    - Default: True
 * n  : int, optional
     - Number of iterations for optimization
     - Default: 1000
