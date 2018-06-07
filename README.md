@@ -14,13 +14,21 @@ and tries to find *N* groups with each giving maximun entropy or - in layman's t
 
 ## Computing 'diversity'
 
-A measure of how 'diverse' a set is, is the so-called Shannon entropy:
+A measure of how 'diverse' a set *X* is, is the so-called Shannon entropy:
 
 <p align="center">
   <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/CodeCogsEqn.gif" alt="eq1"/>
 </p>
 
 Shannon entropy is defined for a given discrete probability distribution; it measures how much information is required, on average, to identify random samples from that distribution. In this context in can be seen as: How can one seperate a set into *N* groups with each group trying to mimic the original's probability distibution best. 
+
+To simplify, let's assume that *X* has 100 elements and only one feature *y* that can take 2 states. Both states are assumed equally. Thus, the entropy is:
+
+<p align="center">
+  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/CodeCogsEqn%20(1).gif" alt="eq2"/>
+</p>
+
+
 
 
 ## How to use
