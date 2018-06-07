@@ -50,7 +50,9 @@ One small (optional) feature is a random swap that will accept a change even whe
 
 Usage is fairly simple. Just import the class:
 
-`from GroupingClass import EntropyGrouping `
+```python
+from GroupingClass import EntropyGrouping 
+```
 
 and create an instance:
 
