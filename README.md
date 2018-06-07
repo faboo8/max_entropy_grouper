@@ -44,7 +44,7 @@ However, one has to consider the case when a state feature in the initial set is
 
 The optimization algorithm is pretty straightforward. We choose two groups at random, from these two groups then we again choose one element each at random, propose a switch, check if the entropy is increasing and if so accept the change. Otherwise we start over. This is not very efficient but given enough iterations finds an optimal grouping. 
 
-One small (optional) feature is a random swap that will accept a change even when the entropy is decreasing. The thought behind this is to avoid getting stuck in a local maximum. However, I have not encountered a situation where the inclusion of this yielded a better result but hey - who knows? 
+One small (optional) feature is a random swap (chance: 1 in 1500) that will accept a change even when the entropy is decreasing. The thought behind this is to avoid getting stuck in a local maximum. However, I have not encountered a situation where the inclusion of this yielded a better result but hey - who knows? 
 
 ## How to use
 
@@ -85,7 +85,7 @@ result = grp.find_best_groups(n)
     - Default: True
 * n  : int, optional
     - Number of iterations for optimization
-    - Default: 1000
+    - Default: 5000
     
     
 ## Tasks
