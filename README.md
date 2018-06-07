@@ -1,4 +1,4 @@
-# Maximum-Entropy-based grouping of items with discrete features 
+# Entropy-based grouping of items with discrete features 
 
 
 <p align="center">
