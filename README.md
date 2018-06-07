@@ -78,9 +78,9 @@ result = grp.find_best_groups(n)
     Leads to random shuffling of the dataframe befor the optimzation
     If the Dataframe has some kind of order this will generally lead to faster convergence
     Default: True
-* n  : in, optional
-    Number of iterations for optimization
-    Default: 1000
+* n  : int, optional
+    - Number of iterations for optimization
+    - Default: 1000
     
     
 ## Tasks
