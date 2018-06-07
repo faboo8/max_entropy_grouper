@@ -34,7 +34,11 @@ Next, we want to seperate this set into 4 groups with 25 elements each. First, g
   <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/CodeCogsEqn%20(2).gif" alt="eq3"/>
 </p>
 
+To best represent the initial set, these probabilities should best approach the initial ones. The way I chose to approach this is to maximize (with one caveat) the individual entropies. However, one has to consider the case when a state feature in the initial set is e.g. only assumed 2 times. Thus, in the group the maximun entropy should be approached by:
 
+<p align="center">
+  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/CodeCogsEqn%20(3).gif" alt="eq4"/>
+</p>
 
 
 ## How to use
