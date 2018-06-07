@@ -48,12 +48,12 @@ One small (optional) feature is a random swap that will accept a change even whe
 
 ## How to use
 
-Usage is fairly simple. Install the package via the command line
+Usage is fairly simple. Install the package via the command line,
 ```
 python setup.py install
 ```
 
-and import the class:
+import the class
 
 ```python
 from GroupingClass import EntropyGrouping 
