@@ -60,7 +60,7 @@ and create an instance:
 grp = EntropyGrouping(df, name_columnm, feature_columns, N, random_swap, shuffle)
 result = grp.find_best_groups(n)
 ```
-
+**Parameters**
 * df  : pandas.DataFrame  
     DataFrame with name column and features that shall be used for grouping
     Can include more columns too
