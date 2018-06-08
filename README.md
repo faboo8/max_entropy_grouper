@@ -92,7 +92,12 @@ result = grp.find_best_groups(n)
 
 - The length of the list and number of groups do not have to divisible e.g. 62 can be split into 4 groups containing 15, 15, 16 and 16 elements. 
 
-- Convergence for splitting into *N* groups roughly scales like *~N* (not verified yet).
+- Convergence for splitting into *N* groups roughly scales like *~2/N* (not verified yet).
+
+<p align="center">
+  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/bmk.png" alt="bmk"/>
+</p>
+
 
 ## Tasks
 
