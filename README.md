@@ -20,7 +20,7 @@ A measure of how 'diverse' a set *X* is, is the so-called Shannon entropy:
   <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/entropy_general.gif" alt="eq1"/>
 </p>
 
-Shannon entropy is defined for a given discrete probability distribution; it measures how much information is required, on average, to identify random samples from that distribution. In this context in can be seen as: How can one seperate a set into *N* groups with each group trying to mimic the original's probability distibution best. Resulting from the definition of entropy it follows that different systems' entropy combine additively thus, the maximum entropy of a group is given by *H/N*.
+Shannon entropy is defined for a given discrete probability distribution; it measures how much information is required, on average, to identify random samples from that distribution. In this context in can be seen as: How can one seperate a set into *N* groups with each group trying to mimic the original's probability distibution best. Resulting from the definition of entropy it follows that different systems' entropy combine additively thus, the maximum entropy of a group is (given ideal splitting) *H/N*. The actual value will hover around that.
 
 To simplify, let's assume that *X* has 100 elements and only one feature *y* that can take 2 states. Both states are assumed equally. Thus, the entropy is:
 
