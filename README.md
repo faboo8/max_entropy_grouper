@@ -88,7 +88,7 @@ result = grp.find_best_groups(n)
     - Number of iterations for optimization
     - Default: 'auto' = 2*(length dataframe)^2/N
     
-##Notes
+## Notes
 
 - The length of the list and number of groups do not have to divisible e.g. 61 can be split into 4 groups with groups containing 15, 15, 16 and 16 elements. 
 
