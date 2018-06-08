@@ -95,7 +95,7 @@ result = grp.find_best_groups(n)
 - Convergence for splitting into *N* groups roughly scales like *~2/N* (not verified yet).
 
 <p align="center">
-  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/bmk.png" alt="bmk"/>
+  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/bmk2.png" alt="bmk"/>
 </p>
 
 
