@@ -31,7 +31,7 @@ To simplify, let's assume that *X* has 100 elements and only one feature *y* tha
 Next, we want to seperate this set into 4 groups with 25 elements each. First, groups are assigned randomly and their individual entropy is:
 
 <p align="center">
-  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/Centr_ex2.gif" alt="eq3"/>
+  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/entr_ex2.gif" alt="eq3"/>
 </p>
 
 To best represent the initial set, these probabilities should best approach the initial ones. The way I chose to approach this is to maximize (with one caveat) the individual entropies. 
@@ -39,7 +39,7 @@ To best represent the initial set, these probabilities should best approach the 
 However, one has to consider the case when a state feature in the initial set is e.g. only assumed 2 times. Thus, in the group the maximun entropy should be approached by:
 
 <p align="center">
-  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/entr_spoc.gif" alt="eq4"/>
+  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/entr_spec.gif" alt="eq4"/>
 </p>
 
 The optimization algorithm is pretty straightforward. We choose two groups at random, from these two groups then we again choose one element each at random, propose a switch, check if the entropy is increasing and if so accept the change. Otherwise we start over. This is not very efficient but given enough iterations finds an optimal grouping. 
