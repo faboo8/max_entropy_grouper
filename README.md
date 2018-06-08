@@ -46,6 +46,7 @@ The optimization algorithm is pretty straightforward. We choose two groups at ra
 
 One small (optional) feature is a random swap (chance: 1 in 1500) that will accept a change even when the entropy is decreasing. The thought behind this is to avoid getting stuck in a local maximum. However, I have not encountered a situation where the inclusion of this yielded a better result but hey - who knows? 
 
+
 ## How to use
 
 Usage is fairly simple. Install the package via the command line,
@@ -87,7 +88,10 @@ result = grp.find_best_groups(n)
     - Number of iterations for optimization
     - Default: 'auto' = 2*(length dataframe)^2/N
     
-    
+##Notes
+
+- The length of the list and number of groups do not have to divisible e.g. 61 can be split into 4 groups with groups containing 15, 15, 16 and 16 elements. 
+
 ## Tasks
 
 - [ ] Implement convergence criteria
