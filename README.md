@@ -107,7 +107,7 @@ result = grp.find_best_groups(n)
 Considering the artifacts due to the small size of the list, I propose (note that I inverted the sign for the entropy):
 
 <p align="center">
-  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/entr_prop" alt="bmk"/>
+  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/entr_prop.gif" alt="bmk"/>
 </p>
 
 
