@@ -92,7 +92,7 @@ result = grp.find_best_groups(n)
 
 - The length of the list and number of groups do not have to divisible e.g. 62 can be split into 4 groups containing 15, 15, 16 and 16 elements. 
 
-- Convergence for splitting into *N* groups roughly scales like *~2/N* (not verified yet).
+- Convergence for splitting into *N* groups roughly scales like *~2/N* (not verified yet). For the following benchmarks I'm using a list containing 62 items with 3 features.
 
 <p align="center">
   <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/bmk2.png" alt="bmk"/>
@@ -103,6 +103,14 @@ result = grp.find_best_groups(n)
 <p align="center">
   <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/bmk3.png" alt="bmk"/>
 </p>
+
+Considering the artifacts due to the small size of the list, I propose (note that I inverted the sign for the entropy):
+
+<p align="center">
+  <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/entr_prop" alt="bmk"/>
+</p>
+
+
 
 
 ## Tasks
