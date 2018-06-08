@@ -8,13 +8,12 @@ Created on Thu Jun  7 13:40:40 2018
 
 import io
 import os
-import sys
-from shutil import rmtree
+
 
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'mypackage'
+NAME = 'GroupingClass'
 DESCRIPTION = 'Package to split dataframes into groups'
 URL = 'https://github.com/me/myproject'
 EMAIL = 'fabian.hafner@live.at'
@@ -40,22 +39,17 @@ with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = '\n' + f.read()
 
 # Load the package's __version__.py module as a dictionary.
-about = {}
-if not VERSION:
-    with open(os.path.join(here, NAME, '__version__.py')) as f:
-        exec(f.read(), about)
-else:
-    about['__version__'] = VERSION
+
 
 
 
 # Where the magic happens:
 setup(
     name=NAME,
-    version=about['__version__'],
+    version=0,
     description=DESCRIPTION,
     long_description=long_description,
-    long_description_content_type='text/markdown'
+    long_description_content_type='text/markdown',
     author=AUTHOR,
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
