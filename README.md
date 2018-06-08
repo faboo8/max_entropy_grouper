@@ -92,7 +92,7 @@ result = grp.find_best_groups(n)
 
 - The length of the list and number of groups do not have to divisible e.g. 61 can be split into 4 groups with groups containing 15, 15, 16 and 16 elements. 
 
-- Convergence for splitting into *N* groups roughly scales like *~N*.
+- Convergence for splitting into *N* groups roughly scales like *~N* (not verified yet).
 
 ## Tasks
 
