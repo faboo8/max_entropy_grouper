@@ -98,7 +98,7 @@ result = grp.find_best_groups(n)
   <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/bmk2.png" alt="bmk"/>
 </p>
 
-- So far I have not found an intuitiv explanation why the entropy is increasing with *N*. However, the number of featurs also seems to be a determining factor:
+- So far I have not found an intuitive explanation why the entropy is increasing with *N*. However, the number of featurs also seems to be a determining factor:
 
 <p align="center">
   <img src="https://github.com/faboo8/max_entropy_grouper/blob/master/media/bmk3.png" alt="bmk"/>
