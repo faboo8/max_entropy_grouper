@@ -49,6 +49,8 @@ One small (optional) feature is a random swap (chance: 1 in 1500) that will acce
 
 ## How to use
 
+[I changed a bit so it is not working right now]
+
 Usage is fairly simple. Install the package via the command line,
 ```
 python setup.py install
